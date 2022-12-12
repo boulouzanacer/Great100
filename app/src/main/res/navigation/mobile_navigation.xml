@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_arabic">
+
+    <fragment
+        android:id="@+id/nav_arabic"
+        android:name="com.xdevpro.great100.ui.fragments.ArabicFragment"
+        android:label="@string/arabic_version"
+        tools:layout="@layout/fragment_arabic" />
+
+    <fragment
+        android:id="@+id/nav_french"
+        android:name="com.xdevpro.great100.ui.fragments.ArabicFragment"
+        android:label="@string/french_version"
+        tools:layout="@layout/fragment_arabic" />
+
+    <fragment
+        android:id="@+id/nav_english"
+        android:name="com.xdevpro.great100.ui.fragments.ArabicFragment"
+        android:label="@string/english_version"
+        tools:layout="@layout/fragment_arabic" />
+    <fragment
+        android:id="@+id/nav_spanich"
+        android:name="com.xdevpro.great100.ui.fragments.ArabicFragment"
+        android:label="@string/spanich_version"
+        tools:layout="@layout/fragment_arabic" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.xdevpro.great100.ui.fragments.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

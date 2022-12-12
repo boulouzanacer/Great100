@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_arabic"
+            android:icon="@drawable/algeria"
+            android:title="@string/arabic_version" />
+        <item
+            android:id="@+id/nav_french"
+            android:icon="@drawable/france"
+            android:title="@string/french_version" />
+        <item
+            android:id="@+id/nav_english"
+            android:icon="@drawable/usa"
+            android:title="@string/english_version" />
+        <item
+            android:id="@+id/nav_spanich"
+            android:icon="@drawable/spain"
+            android:title="@string/spanich_version" />
+
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_android_24"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>

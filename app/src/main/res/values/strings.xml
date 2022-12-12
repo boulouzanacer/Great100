@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Great 100</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">جهـاد التربـاني</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="arabic_version">Arabic version</string>
+    <string name="french_version">French version</string>
+    <string name="english_version">English version</string>
+    <string name="spanich_version">Spanich version</string>
+    <string name="others">Others</string>
+    <string name="about">About</string>
+</resources>
